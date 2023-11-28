@@ -13,9 +13,9 @@ function Card() {
         {data.map((item) => (    
   <div className="col">
     <div className="card h-100">
-    <b style={{marginLeft:'50px'}}>Get this look{item.hashtag} by Aria @{item.money}</b>
-      <img src={item.image} style={{height:'250px' , width:'250px', margin:'20px 50px'}} alt="..." />
-      <video src={item.vedio} autoPlay muted  loop style={{height:'300px' , width:'270px' , position:'relative', top:'-90px', left:'50px'}}/>
+    <b style={{marginLeft:'30px'}}>Get this look{item.hashtag} by Aria @{item.money}</b>
+      <img src={item.image} style={{height:'250px' , width:'250px', margin:'20px 20px'}} alt="..." />
+      <video src={item.vedio} autoPlay muted  loop style={{height:'300px' , width:'270px' , position:'relative', top:'-90px', left:'10px'}}/>
       <div className="card-body" style={{marginTop:'-180px'}}>
       <button type="button" style={{backgroundColor:'#2D9596',  margin:'10px' , borderRadius:'10px'}}>Code : {item.code}</button>
         <h5 className="card-title">{item.name}</h5>

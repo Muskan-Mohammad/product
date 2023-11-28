@@ -13,7 +13,7 @@ function MainPage() {
       borderRadius: '50%',
       position:'relative',
       top:'-150px',
-      left:'320px',
+      left:'250px',
       bottom:'-20px'
      
     };
@@ -22,13 +22,13 @@ function MainPage() {
   };
   const BoxWithShadow = () => {
     const boxStyle = {
-      width: '300px',
-      height: '50px',
+      width: '320px',
+      height: '70px',
       boxShadow: '0 8px 16px rgba(0, 0, 0, 0.2)', 
       backgroundColor: '#FED9ED', 
       margin: '20px',
       borderRadius:'10px',
-      marginTop:'-29rem',
+      marginTop:'-39rem',
        
     };
   
@@ -42,7 +42,23 @@ function MainPage() {
       backgroundColor: '#FED9ED', 
       margin: '20px',
       borderRadius:'10px',
-      marginTop:'-21rem',
+      marginTop:'-29rem',
+      marginLeft:'-20px'
+       
+    };
+  
+    return <div style={boxStyle}></div>;
+  };
+  const BoxWithShadow2 = () => {
+    const boxStyle = {
+      width: '380px',
+      height: '100px',
+      boxShadow: '0 8px 16px rgba(0, 0, 0, 0.2)',
+      backgroundColor: '#FED9ED', 
+      margin: '20px',
+      borderRadius:'10px',
+      marginTop:'-7rem',
+      marginLeft:'-20px'
        
     };
   
@@ -66,12 +82,12 @@ function MainPage() {
      <BoxWithShadow1 />
      <div style={{marginTop:'10px'}}>
       <BoxWithShadow1 />
-  
      </div>
+     <BoxWithShadow2 />
     </div>
     
     <Circle />
-    <h6 style={{marginTop:'-190px' , marginLeft:'-200px'}}>@SHOPWITHSTORECODE</h6>
+    <h6 style={{marginTop:'-190px' , marginLeft:'-150px'}}>@SHOPWITHSTORECODE</h6>
     </div>
   )
 }
